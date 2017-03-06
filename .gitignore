@@ -1,0 +1,8 @@
+*.pyc
+*~
+__pycache__
+pocve
+db.sqlite3
+.DS_Store
+settings.py
+wsgi.py
