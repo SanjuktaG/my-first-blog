@@ -12,5 +12,15 @@ class Post(models.Model):
         self.published_date = timezone.now()
         self.save()
 
+   def get_title(self):
+       pass
+
+    def __str__(self):
+        return self.title
+
+    class User(models.Model):
+    first_name = models.CharField(max_length=200)
+    last_name = models.CharField(max_length=200)
+
     def __str__(self):
         return self.title
